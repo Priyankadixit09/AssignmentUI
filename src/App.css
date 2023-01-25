@@ -1,0 +1,95 @@
+.Header-nav{
+  text-align:left;
+  margin-left: 50px;
+}
+.Form{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 8rem;
+  
+}
+.Form h1{
+  color: purple;
+}
+.app{
+  display: flex;
+}
+.side-nav {
+  z-index: 14;
+  width: 284px;
+  display: flex;
+ 
+ }
+
+ul {
+ list-style: none; 
+ border-right: 1px solid lightgray;
+}
+li {
+  margin-bottom: 24px;
+  font-weight: bold;
+  margin-top: 24px;
+}
+span {
+  font-weight:bold;
+}
+.round{
+  flex: 1;
+}
+.Ellipse{
+  align-items: center;
+  display: flex;
+}
+.circle{
+  transform: translate(50%, -100%);
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  column-gap: 5rem;
+  row-gap: 2rem;
+  /* justify-content: space-around; */
+  }
+.Name{
+  display: flex;
+  flex-direction: column;
+
+}
+input{
+  padding: .75rem;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  outline-color: purple;
+}
+.Grade{
+  display: flex;
+  flex-direction: column;
+}
+.Email{
+  display: flex;
+  flex-direction: column;
+}
+.Section{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer{
+  text-align: right;
+}
+
+button{
+  background: none;
+  border: none;
+  
+ }
+ .next{
+  color: purple;
+ }
+ .prev{
+  color: gray;
+ }
+
+
